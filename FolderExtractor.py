@@ -1,9 +1,9 @@
 import zipfile
 import os
 
-zip_file_path = "./DeepFilterNet/models/DeepFilterNet2.zip"
+zip_file_path = "./DeepFilterNet2.zip"
 
-extract_to_path = "./DeepFilterNet/models/DeepFilterNet2_extracted"
+extract_to_path = "./"
 
 os.makedirs(extract_to_path, exist_ok=True)
 
