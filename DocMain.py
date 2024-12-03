@@ -7,7 +7,7 @@ import torchaudio
 model, df_state, _ = init_df()
 
 # Streamlit App
-st.title("Real-Time Noise Removal")
+st.title("Audio Noise Removal")
 st.write("Upload an audio file to remove background noise.")
 
 uploaded_file = st.file_uploader("Upload Audio File", type=["wav", "mp3", "flac"])
